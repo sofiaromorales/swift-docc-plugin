@@ -43,6 +43,7 @@ swift package \
     generate-documentation \
     --target SwiftDocCPlugin \
     --disable-indexing \
+    --skip-synthesized-symbols \
     --transform-for-static-hosting \
     --hosting-base-path swift-docc-plugin \
     --output-path "$SWIFT_DOCC_PLUGIN_ROOT/gh-pages/docs"
